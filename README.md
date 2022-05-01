@@ -7,5 +7,5 @@ Live example is [here](https://http://k-digital.tech/)
 
 * Run the command `git clone <repository-url>` to have this repository locally in your computer
 * change into the new directory
-* Run the command `python manage.py runserver`
+* Run the command `python manage.py runserver --insecure` (otherwise you will get GET 404 - https://stackoverflow.com/a/58291398)
 * Open your web browser and enter the adress of your local server (usually its http://127.0.0.1:8000 )
